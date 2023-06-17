@@ -1,4 +1,4 @@
-## Project: Django Models
+## Project: Django CRUD and Forms
 
 Author: Lauren Main
 
@@ -6,11 +6,11 @@ Version 1.0
 
 ### Links and Resources
 
-
+This page references [100 Years, 100 Novels, One List](https://www.npr.org/2009/05/07/103869541/100-years-100-novels-one-list)
 
 ### Overview
 
-
+This app allows users to enter and track their favorite reads from the top 100 Novels from the last 100 years. 
 
 #### Feature
 
@@ -18,39 +18,33 @@ Version 1.0
 
 - [x] Create an app
   
-- [x] Create a model
+- [] Create a model
   
-  - [x] create a name CharField with max length 64 characters
+  - [] create a title field
   
-  - [x] create a purchaser ForeignKey with CASCADE delete option
+  - [] create a purchaser field
   
-  - [x] create a description TextField
+  - [] create a description field
   
-- [x] Add model to admin
+- [] Add model to admin
   
-- [x] Modify Snack model to have user-friendly display in admin
+- [] Creat a SnackListView 
 
-- [x] Create migrations and migrate data
+- [] Create a SnackDetailView 
 
-- [x] Create a super user
+- [] Create a SnackCreateView
 
-- [x] Run dev server
+- [] Create a SnackUpdateView
 
-- [x] add snacks via admin panel
+- [] Create a SnackDeleteView
 
-- [x] create another user and add more snack via admin panel
+- [] Add urls to support all views
 
-- [x] confirm snacks behave as expected with model name, purchaser, and description
+- [] Add templates to support all views
 
-- [x] create SnackListView
+- [] Add navigation links to support all views
 
-- [x] update url patterns
 
-- [x] update snack app urls
-
-- [x] add detail view
-
-- [x] update app urlpatterns to handle detail view
 
 
 
