@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+from django.urls import reverse
 
 class Book(models.Model):
     name = models.CharField(max_length=64)
@@ -9,3 +10,7 @@ class Book(models.Model):
 
     def __str__(self):
         return self.name
+
+#return user to the detail page of their new entry
+    def get_absolute_url(self):
+        return reverse('book_detail', args=[str(self.id)])
