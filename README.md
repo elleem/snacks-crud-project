@@ -18,31 +18,31 @@ This app allows users to enter and track their favorite reads from the top 100 N
 
 - [x] Create an app
   
-- [] Create a model
+- [x] Create a model
   
-  - [] create a title field
+  - [x] create a title field
   
-  - [] create a purchaser field
+  - [x] create a purchaser field
   
-  - [] create a description field
+  - [x] create a description field
   
-- [] Add model to admin
+- [x] Add model to admin
   
-- [] Creat a SnackListView 
+- [x] Creat a SnackListView 
 
-- [] Create a SnackDetailView 
+- [x] Create a SnackDetailView 
 
-- [] Create a SnackCreateView
+- [x] Create a SnackCreateView
 
-- [] Create a SnackUpdateView
+- [x] Create a SnackUpdateView
 
-- [] Create a SnackDeleteView
+- [x] Create a SnackDeleteView
 
-- [] Add urls to support all views
+- [x] Add urls to support all views
 
-- [] Add templates to support all views
+- [x] Add templates to support all views
 
-- [] Add navigation links to support all views
+- [x] Add navigation links to support all views
 
 
 
