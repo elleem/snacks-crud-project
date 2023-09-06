@@ -28,7 +28,7 @@ This app allows users to enter and track their favorite reads from the top 100 N
   
 - [x] Add model to admin
   
-- [x] Creat a SnackListView 
+- [x] Create a SnackListView 
 
 - [x] Create a SnackDetailView 
 
